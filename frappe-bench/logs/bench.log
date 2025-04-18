@@ -1,0 +1,107 @@
+2025-04-18 19:46:55,917 DEBUG cd frappe-bench && python3 -m venv env
+2025-04-18 19:46:58,921 DEBUG cd frappe-bench && /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-04-18 19:47:02,292 DEBUG cd frappe-bench && /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench/env/bin/python -m pip install --quiet wheel
+2025-04-18 19:47:03,695 LOG Getting frappe
+2025-04-18 19:47:03,696 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2025-04-18 19:47:08,238 LOG Installing frappe
+2025-04-18 19:47:08,238 DEBUG cd /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench && /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench/apps/frappe 
+2025-04-18 19:48:56,331 DEBUG cd /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench/apps/frappe && yarn install --check-files
+2025-04-18 19:49:22,738 DEBUG cd frappe-bench && bench build
+2025-04-18 19:49:23,086 INFO /opt/anaconda3/bin/bench build
+2025-04-18 19:49:46,398 LOG setting up backups
+2025-04-18 19:50:17,774 LOG backups were set up
+2025-04-18 19:50:17,774 INFO Bench frappe-bench initialized
+2025-04-18 19:53:38,613 INFO /opt/anaconda3/bin/bench start
+2025-04-18 19:53:39,921 INFO /opt/anaconda3/bin/bench serve --port 8000
+2025-04-18 19:53:39,927 INFO /opt/anaconda3/bin/bench watch
+2025-04-18 19:53:39,930 INFO /opt/anaconda3/bin/bench schedule
+2025-04-18 19:53:39,939 INFO /opt/anaconda3/bin/bench worker
+2025-04-18 19:57:09,285 INFO /opt/anaconda3/bin/bench new-site erpnext.localhost
+2025-04-18 20:07:14,248 INFO /opt/anaconda3/bin/bench start
+2025-04-18 20:07:14,916 INFO /opt/anaconda3/bin/bench serve --port 8000
+2025-04-18 20:07:14,918 INFO /opt/anaconda3/bin/bench watch
+2025-04-18 20:07:14,920 INFO /opt/anaconda3/bin/bench worker
+2025-04-18 20:07:14,921 INFO /opt/anaconda3/bin/bench schedule
+2025-04-18 20:08:10,970 INFO /opt/anaconda3/bin/bench new-site erpnext.localhost
+2025-04-18 20:08:58,318 INFO /opt/anaconda3/bin/bench new-site erpnext.localhost
+2025-04-18 20:09:21,675 INFO /opt/anaconda3/bin/bench new-site erpnext.localhost
+2025-04-18 20:12:11,478 INFO /opt/anaconda3/bin/bench new-site erpnext.localhost
+2025-04-18 20:12:30,778 INFO /opt/anaconda3/bin/bench new-site erpnext.localhost
+2025-04-18 20:19:01,683 INFO /opt/anaconda3/bin/bench new-site erpnext.localhost
+2025-04-18 20:19:33,042 INFO /opt/anaconda3/bin/bench new-site erpnext.localhost
+2025-04-18 20:19:50,228 INFO /opt/anaconda3/bin/bench new-site erpnext.localhost
+2025-04-18 20:20:03,551 INFO /opt/anaconda3/bin/bench new-site erpnext.localhost
+2025-04-18 20:20:27,199 INFO /opt/anaconda3/bin/bench get-app https://github.com/frappe/erpnext
+2025-04-18 20:20:27,223 LOG Getting erpnext
+2025-04-18 20:20:27,224 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext  --depth 1 --origin upstream
+2025-04-18 20:20:33,992 LOG Installing erpnext
+2025-04-18 20:20:33,993 DEBUG cd /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench && /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench/apps/erpnext 
+2025-04-18 20:20:55,431 DEBUG cd /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench/apps/erpnext && yarn install --check-files
+2025-04-18 20:20:56,433 DEBUG bench build --app erpnext
+2025-04-18 20:20:56,718 INFO /opt/anaconda3/bin/bench build --app erpnext
+2025-04-18 20:21:15,452 INFO /opt/anaconda3/bin/bench --site erpnext.localhost install-app erpnext
+2025-04-18 20:26:49,154 INFO /opt/anaconda3/bin/bench new-site erpnext.localhost
+2025-04-18 20:26:54,421 INFO /opt/anaconda3/bin/bench new-site erpnext.localhost --force
+2025-04-18 20:27:33,856 INFO /opt/anaconda3/bin/bench start
+2025-04-18 20:27:34,697 INFO /opt/anaconda3/bin/bench serve --port 8000
+2025-04-18 20:27:34,707 INFO /opt/anaconda3/bin/bench schedule
+2025-04-18 20:27:34,708 INFO /opt/anaconda3/bin/bench worker
+2025-04-18 20:27:34,709 INFO /opt/anaconda3/bin/bench watch
+2025-04-18 20:29:36,254 INFO /opt/anaconda3/bin/bench start
+2025-04-18 20:29:36,820 INFO /opt/anaconda3/bin/bench serve --port 8000
+2025-04-18 20:29:36,839 INFO /opt/anaconda3/bin/bench schedule
+2025-04-18 20:29:36,839 INFO /opt/anaconda3/bin/bench worker
+2025-04-18 20:29:36,839 INFO /opt/anaconda3/bin/bench watch
+2025-04-18 20:29:50,010 INFO /opt/anaconda3/bin/bench new-site erpnext.localhost
+2025-04-18 20:30:00,827 INFO /opt/anaconda3/bin/bench new-site erpnext.localhost --force
+2025-04-18 20:32:39,276 INFO /opt/anaconda3/bin/bench new-site erpnext.localhost --force
+2025-04-18 20:32:56,552 INFO /opt/anaconda3/bin/bench new-site erpnext.localhost --force
+2025-04-18 20:33:31,977 INFO /opt/anaconda3/bin/bench --site erpnext.localhost install-app erpnext
+2025-04-18 20:33:43,695 INFO /opt/anaconda3/bin/bench --site erpnext.localhost install-app erpnext
+2025-04-18 20:57:56,807 INFO /opt/anaconda3/bin/bench get-app https://github.com/frappe/erpnext
+2025-04-18 20:58:11,218 INFO /opt/anaconda3/bin/bench --site erpnext.localhost install-app erpnext
+2025-04-18 20:58:18,912 INFO /opt/anaconda3/bin/bench get-app https://github.com/frappe/erpnext
+2025-04-18 20:58:25,199 INFO App moved from apps/erpnext to archived/apps/erpnext-2025-04-18
+2025-04-18 20:58:25,234 LOG Getting erpnext
+2025-04-18 20:58:25,235 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext  --depth 1 --origin upstream
+2025-04-18 20:58:32,183 LOG Installing erpnext
+2025-04-18 20:58:32,183 DEBUG cd /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench && /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench/apps/erpnext 
+2025-04-18 20:58:36,526 DEBUG cd /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench/apps/erpnext && yarn install --check-files
+2025-04-18 20:58:37,339 DEBUG bench build --app erpnext
+2025-04-18 20:58:37,589 INFO /opt/anaconda3/bin/bench build --app erpnext
+2025-04-18 20:58:49,161 INFO /opt/anaconda3/bin/bench --site erpnext.localhost install-app erpnext
+2025-04-18 21:02:29,173 INFO /opt/anaconda3/bin/bench --site erpnext.localhost install-app erpnext
+2025-04-18 21:04:22,273 INFO /opt/anaconda3/bin/bench drop-site erpnext.localhost
+2025-04-18 21:04:34,825 INFO /opt/anaconda3/bin/bench drop-site erpnext.localhost --force
+2025-04-18 21:04:48,855 INFO /opt/anaconda3/bin/bench drop-site erpnext.localhost --force
+2025-04-18 21:05:20,564 INFO /opt/anaconda3/bin/bench start
+2025-04-18 21:05:21,454 INFO /opt/anaconda3/bin/bench serve --port 8000
+2025-04-18 21:05:21,457 INFO /opt/anaconda3/bin/bench watch
+2025-04-18 21:05:21,460 INFO /opt/anaconda3/bin/bench schedule
+2025-04-18 21:05:21,464 INFO /opt/anaconda3/bin/bench worker
+2025-04-18 21:05:28,889 INFO /opt/anaconda3/bin/bench get-app https://github.com/frappe/erpnext
+2025-04-18 21:05:32,738 INFO App moved from apps/erpnext to archived/apps/erpnext-2025-04-18_1
+2025-04-18 21:05:32,760 LOG Getting erpnext
+2025-04-18 21:05:32,760 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext  --depth 1 --origin upstream
+2025-04-18 21:05:39,374 LOG Installing erpnext
+2025-04-18 21:05:39,376 DEBUG cd /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench && /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench/apps/erpnext 
+2025-04-18 21:05:43,310 DEBUG cd /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench/apps/erpnext && yarn install --check-files
+2025-04-18 21:05:43,732 DEBUG bench build --app erpnext
+2025-04-18 21:05:43,981 INFO /opt/anaconda3/bin/bench build --app erpnext
+2025-04-18 21:05:58,770 INFO /opt/anaconda3/bin/bench --site erpnext.localhost install-app erpnext
+2025-04-18 21:06:10,344 INFO /opt/anaconda3/bin/bench get-app https://github.com/frappe/erpnext
+2025-04-18 21:06:24,787 INFO /opt/anaconda3/bin/bench --site erpnext install-app erpnext
+2025-04-18 21:06:34,433 INFO /opt/anaconda3/bin/bench --site erpnext.localhost install-app erpnext
+2025-04-18 21:06:43,390 INFO /opt/anaconda3/bin/bench --site erpnext.localhost install-app erpnext
+2025-04-18 21:08:06,727 INFO /opt/anaconda3/bin/bench new-site erpnext.localhost
+2025-04-18 21:10:27,066 INFO /opt/anaconda3/bin/bench new-site erpnext.localhost
+2025-04-18 21:12:12,006 INFO /opt/anaconda3/bin/bench get-app https://github.com/frappe/erpnext
+2025-04-18 21:12:15,494 INFO App moved from apps/erpnext to archived/apps/erpnext-2025-04-18_2
+2025-04-18 21:12:15,514 LOG Getting erpnext
+2025-04-18 21:12:15,514 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext  --depth 1 --origin upstream
+2025-04-18 21:12:22,324 LOG Installing erpnext
+2025-04-18 21:12:22,325 DEBUG cd /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench && /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench/apps/erpnext 
+2025-04-18 21:12:25,633 DEBUG cd /Users/ninaanic/Tehnicke/12_semestar/diplomski/frappe_docker/frappe-bench/apps/erpnext && yarn install --check-files
+2025-04-18 21:12:26,040 DEBUG bench build --app erpnext
+2025-04-18 21:12:26,323 INFO /opt/anaconda3/bin/bench build --app erpnext
+2025-04-18 21:12:37,756 INFO /opt/anaconda3/bin/bench --site erpnext.localhost install-app erpnext
